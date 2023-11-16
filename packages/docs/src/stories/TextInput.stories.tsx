@@ -36,5 +36,8 @@ export const WithPrefix: StoryObj<TextInputProps> = {
   args: {
     prefix: 'https://',
     placeholder: 'your site',
+    container: {
+      size: 'sm',
+    },
   },
 }

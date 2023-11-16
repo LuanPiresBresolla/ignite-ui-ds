@@ -3,12 +3,13 @@ import { Input, Prefix, TextInputContainer } from './styles'
 
 export type TextInputProps = ComponentProps<typeof Input> & {
   prefix?: string
+  container?: ComponentProps<typeof TextInputContainer>
 }
 
 export const TextInput = forwardRef<ElementRef<typeof Input>, TextInputProps>(
-  ({ prefix, ...props }, ref) => {
+  ({ prefix, container, ...props }, ref) => {
     return (
-      <TextInputContainer>
+      <TextInputContainer {...container}>
         {!!prefix && <Prefix>{prefix}</Prefix>}
         <Input ref={ref} {...props} />
       </TextInputContainer>
