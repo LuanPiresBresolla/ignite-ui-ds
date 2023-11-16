@@ -1,0 +1,2 @@
+import{A as t}from"./index.aa853f72.js";import"./index.0b94a34b.js";import"./iframe.0fb0ef52.js";import"./index.4ca4a19b.js";import"./jsx-runtime.005cdb1c.js";const l={title:"Data display/Avatar",component:t,args:{src:"https://github.com/luanpiresbresolla.png",alt:"Luan Bresolla"},argTypes:{src:{control:{type:"text"}}}},p={},e={args:{src:void 0}},c=["Primary","WithFallback"];export{p as Primary,e as WithFallback,c as __namedExportsOrder,l as default};
+//# sourceMappingURL=Avatar.stories.8e30e6c4.js.map
