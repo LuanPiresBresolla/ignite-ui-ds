@@ -1,3 +1,3 @@
 {
-  "extends": ["@ignite-ui/eslint-config"]
+  "extends": ["@luan-ignite-ui-ds/eslint-config"]
 }

@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite-ui/ts-config/base.json",
+  "extends": "@luan-ignite-ui-ds/ts-config/base.json",
   "include": ["src"]
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@ignite-ui/eslint-config",
-  "version": "1.0.0",
+  "name": "@luan-ignite-ui-ds/eslint-config",
+  "version": "3.0.0",
   "license": "MIT",
   "private": true,
   "main": "index.js",

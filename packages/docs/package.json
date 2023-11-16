@@ -1,8 +1,9 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@luan-ignite-ui-ds/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
@@ -19,10 +20,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@luan-ignite-ui-ds/eslint-config": "*",
+    "@luan-ignite-ui-ds/react": "*",
+    "@luan-ignite-ui-ds/tokens": "*",
+    "@luan-ignite-ui-ds/ts-config": "*",
     "@storybook/addon-actions": "^6.5.12",
     "@storybook/addon-essentials": "^6.5.12",
     "@storybook/addon-interactions": "^6.5.12",
